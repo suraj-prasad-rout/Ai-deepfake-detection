@@ -1,52 +1,43 @@
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Deepfake Detection
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
- </head>
- <body class="bg-gradient-to-r from-orange-400 to-pink-500 min-h-screen">
-  <nav class="bg-gray-900 text-white p-4">
-   <div class="container mx-auto flex justify-between items-center">
-    <div class="text-lg font-semibold">
-     Deepfake Detection
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Deepfake Detection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gradient-to-r from-orange-400 to-pink-500 min-h-screen">
+    <nav class="bg-gray-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-lg font-semibold">
+               <a href="index.html">Deepfake Detection</a> 
+            </div>
+            <div class="space-x-4">
+                <a class="hover:text-gray-400" href="index.html">Home</a>
+                <a class="hover:text-gray-400" href="img_upload.html">Image Upload</a>
+                <a class="hover:text-gray-400" href="vid_upload.html">Video Upload</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto py-16 flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
+        <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+            <img alt="Illustration of a person uploading an image" class="mx-auto mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYGexH8JAzt8CUJwQ8olT-l_SUaRIqVvjZ-A&s"/>
+            <h2 class="text-xl font-semibold mb-4">
+                Upload Image
+            </h2>
+            <button onclick="window.location.href='img_upload.html'" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                Click here
+            </button>
+        </div>
+        <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+            <img alt="Illustration of a person uploading a video" class="mx-auto mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Pdc0eXtcpY_1JOpRjDab0KkDAMhKvFHKlvuYCrab7XjTMjqvmK26Qx2WAL3baFy7iVw&usqp=CAU"/>
+            <h2 class="text-xl font-semibold mb-4">
+                Upload Video
+            </h2>
+            <button onclick="window.location.href='vid_upload.html'" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                Click here
+            </button>
+        </div>
     </div>
-    <div class="space-x-4">
-     <a class="hover:text-gray-400" href="#">
-      Home
-     </a>
-     <a class="hover:text-gray-400" href="#">
-      Image Upload
-     </a>
-     <a class="hover:text-gray-400" href="#">
-      Video Upload
-     </a>
-    </div>
-   </div>
-  </nav>
-  <div class="container mx-auto py-16 flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
-   <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-    <img alt="Illustration of a person uploading an image" class="mx-auto mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYGexH8JAzt8CUJwQ8olT-l_SUaRIqVvjZ-A&s"/>
-    <h2 class="text-xl font-semibold mb-4">
-     Upload Image
-    </h2>
-    <button onclick="window.location.href='img_upload.html'" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-     Click here
-    </button>
-   </div>
-   <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-    <img alt="Illustration of a person uploading a video" class="mx-auto mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Pdc0eXtcpY_1JOpRjDab0KkDAMhKvFHKlvuYCrab7XjTMjqvmK26Qx2WAL3baFy7iVw&usqp=CAU"/>
-    <h2 class="text-xl font-semibold mb-4">
-     Upload Video
-    </h2>
-    <button onclick="window.location.href='vid_upload.html'" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-     Click here
-    </button>
-   </div>
-  </div>
- </body>
+</body>
 </html>
