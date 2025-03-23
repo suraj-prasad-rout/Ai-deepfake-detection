@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ✅ Load Model (Ensure it's properly loaded)
-MODEL_PATH = r"E:\AI dfde frontend\deepfake_detection_model.h5"
+MODEL_PATH = r"E:\AI dfde frontend\deepfake_detection_model.h5"  #aded by suraj made changes in pathas per you local model file destination
 
 try:
     model = tf.keras.models.load_model(MODEL_PATH)
